@@ -1,0 +1,114 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 53.73 s <<< FAILURE! -- in TestSuite
+cucumberOptions.TestNGRunner.runScenario["To test job seeker able to search jobs by location preference", "To test NHS Job Search functionality"](1) -- Time elapsed: 6.410 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at pageObjects.CandidateSearchResultPage.validateNewestDatePostedSortBy(CandidateSearchResultPage.java:60)
+	at stepDefinitions.CandidateSearchResultPageStepDefinition.sort_my_search_results_with_the_newest_date_posted(CandidateSearchResultPageStepDefinition.java:30)
+	at ✽.sort my search results with the newest Date Posted(file:///C:/Users/simra/eclipse-interview-workspace/nhs_Assignment/src/test/java/features/task1.feature:10)
+
+cucumberOptions.TestNGRunner.runScenario["To test job seeker able to search jobs by location preference", "To test NHS Job Search functionality"](2) -- Time elapsed: 5.296 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at pageObjects.CandidateSearchResultPage.validateNewestDatePostedSortBy(CandidateSearchResultPage.java:60)
+	at stepDefinitions.CandidateSearchResultPageStepDefinition.sort_my_search_results_with_the_newest_date_posted(CandidateSearchResultPageStepDefinition.java:30)
+	at ✽.sort my search results with the newest Date Posted(file:///C:/Users/simra/eclipse-interview-workspace/nhs_Assignment/src/test/java/features/task1.feature:10)
+
+cucumberOptions.TestNGRunner.runScenario["To test job seeker able to search jobs by location preference", "To test NHS Job Search functionality"](3) -- Time elapsed: 4.114 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at pageObjects.CandidateSearchResultPage.validateNewestDatePostedSortBy(CandidateSearchResultPage.java:60)
+	at stepDefinitions.CandidateSearchResultPageStepDefinition.sort_my_search_results_with_the_newest_date_posted(CandidateSearchResultPageStepDefinition.java:30)
+	at ✽.sort my search results with the newest Date Posted(file:///C:/Users/simra/eclipse-interview-workspace/nhs_Assignment/src/test/java/features/task1.feature:10)
+
+cucumberOptions.TestNGRunner.runScenario["To test job seeker able to search jobs by location preference", "To test NHS Job Search functionality"](4) -- Time elapsed: 4.033 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at pageObjects.CandidateSearchResultPage.validateNewestDatePostedSortBy(CandidateSearchResultPage.java:60)
+	at stepDefinitions.CandidateSearchResultPageStepDefinition.sort_my_search_results_with_the_newest_date_posted(CandidateSearchResultPageStepDefinition.java:30)
+	at ✽.sort my search results with the newest Date Posted(file:///C:/Users/simra/eclipse-interview-workspace/nhs_Assignment/src/test/java/features/task1.feature:10)
+
+cucumberOptions.TestNGRunner.runScenario["To test job seeker able to search jobs by job title / skills preference", "To test NHS Job Search functionality"](5) -- Time elapsed: 4.558 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at pageObjects.CandidateSearchResultPage.validateNewestDatePostedSortBy(CandidateSearchResultPage.java:60)
+	at stepDefinitions.CandidateSearchResultPageStepDefinition.sort_my_search_results_with_the_newest_date_posted(CandidateSearchResultPageStepDefinition.java:30)
+	at ✽.sort my search results with the newest Date Posted(file:///C:/Users/simra/eclipse-interview-workspace/nhs_Assignment/src/test/java/features/task1.feature:24)
+
+cucumberOptions.TestNGRunner.runScenario["To test job seeker able to search jobs by job title / skills preference", "To test NHS Job Search functionality"](6) -- Time elapsed: 4.654 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at pageObjects.CandidateSearchResultPage.validateNewestDatePostedSortBy(CandidateSearchResultPage.java:60)
+	at stepDefinitions.CandidateSearchResultPageStepDefinition.sort_my_search_results_with_the_newest_date_posted(CandidateSearchResultPageStepDefinition.java:30)
+	at ✽.sort my search results with the newest Date Posted(file:///C:/Users/simra/eclipse-interview-workspace/nhs_Assignment/src/test/java/features/task1.feature:24)
+
+cucumberOptions.TestNGRunner.runScenario["To test job seeker able to search jobs by job title / skills preference", "To test NHS Job Search functionality"](7) -- Time elapsed: 4.591 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at pageObjects.CandidateSearchResultPage.validateNewestDatePostedSortBy(CandidateSearchResultPage.java:60)
+	at stepDefinitions.CandidateSearchResultPageStepDefinition.sort_my_search_results_with_the_newest_date_posted(CandidateSearchResultPageStepDefinition.java:30)
+	at ✽.sort my search results with the newest Date Posted(file:///C:/Users/simra/eclipse-interview-workspace/nhs_Assignment/src/test/java/features/task1.feature:24)
+
+cucumberOptions.TestNGRunner.runScenario["To test job seeker able to search jobs by job reference preference", "To test NHS Job Search functionality"](8) -- Time elapsed: 4.407 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at pageObjects.CandidateSearchResultPage.validateNewestDatePostedSortBy(CandidateSearchResultPage.java:60)
+	at stepDefinitions.CandidateSearchResultPageStepDefinition.sort_my_search_results_with_the_newest_date_posted(CandidateSearchResultPageStepDefinition.java:30)
+	at ✽.sort my search results with the newest Date Posted(file:///C:/Users/simra/eclipse-interview-workspace/nhs_Assignment/src/test/java/features/task1.feature:37)
+
+cucumberOptions.TestNGRunner.runScenario["To test job seeker able to search jobs by Employer preference", "To test NHS Job Search functionality"](9) -- Time elapsed: 4.537 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at pageObjects.CandidateSearchResultPage.validateNewestDatePostedSortBy(CandidateSearchResultPage.java:60)
+	at stepDefinitions.CandidateSearchResultPageStepDefinition.sort_my_search_results_with_the_newest_date_posted(CandidateSearchResultPageStepDefinition.java:30)
+	at ✽.sort my search results with the newest Date Posted(file:///C:/Users/simra/eclipse-interview-workspace/nhs_Assignment/src/test/java/features/task1.feature:50)
+
+cucumberOptions.TestNGRunner.runScenario["To test job seeker able to search jobs by pay range preference", "To test NHS Job Search functionality"](10) -- Time elapsed: 4.440 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at pageObjects.CandidateSearchResultPage.validateNewestDatePostedSortBy(CandidateSearchResultPage.java:60)
+	at stepDefinitions.CandidateSearchResultPageStepDefinition.sort_my_search_results_with_the_newest_date_posted(CandidateSearchResultPageStepDefinition.java:30)
+	at ✽.sort my search results with the newest Date Posted(file:///C:/Users/simra/eclipse-interview-workspace/nhs_Assignment/src/test/java/features/task1.feature:62)
+
+cucumberOptions.TestNGRunner.runScenario["To test job seeker able to search jobs by job title, location and Pay range preferences", "To test NHS Job Search functionality"](11) -- Time elapsed: 4.814 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at pageObjects.CandidateSearchResultPage.validateNewestDatePostedSortBy(CandidateSearchResultPage.java:60)
+	at stepDefinitions.CandidateSearchResultPageStepDefinition.sort_my_search_results_with_the_newest_date_posted(CandidateSearchResultPageStepDefinition.java:30)
+	at ✽.sort my search results with the newest Date Posted(file:///C:/Users/simra/eclipse-interview-workspace/nhs_Assignment/src/test/java/features/task1.feature:78)
+
