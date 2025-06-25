@@ -80,6 +80,7 @@ mvn clean install
 ## ▶️ How to Run Tests
 
 ### Run All Scenarios
+### Browser(Firefox/Chrome) can be set in src\test\resources\Global.properties
 ```bash
 mvn test
 ```
